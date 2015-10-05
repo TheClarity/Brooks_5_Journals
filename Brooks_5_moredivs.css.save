@@ -1,0 +1,90 @@
+body {
+	background-color: #E6E6E6;
+	margin: 0px;
+	color: #1589FF;
+	align: center;
+}
+h1 { 
+	box-shadow: 20px 1px 20px gray;
+	padding: 15px;
+}
+
+.container {
+	background-color: black;
+	height: 850px;
+	margin-left: auto;
+	margin_right: auto;
+	width: 700px;
+}
+
+Header {
+	background-color: #19A3FF;
+	height: 72px;
+	width: 700px;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 72px;
+	margin: 0px;
+	text-align: center;
+}
+
+nav {
+	background-color: black;
+	height: 50px;
+	width: 700px;
+}
+
+td {
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+
+table {
+	box-shadow: 20px 20px 1	box-shadow: 20px 1px 20px gray;
+px gray;	
+	width: 700px;
+}
+
+a {
+	border-top-left-radius: 10px 5px;
+	border-bottom-right-radius: 10% 5%;
+	border-top-right-radius: 10px; 
+	color: white;
+	text-decoration: none;
+}
+
+b {
+	color: white;
+	text-decoration: none;
+}
+
+b:hover {
+	color: #1589FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1589FF;
+	background-color: #CEF6F5;
+	border-top-left-radius: 10px 5px;
+	border-bottom-right-radius: 10% 5%;
+	border-top-right-radius: 10px; 
+}
+
+.main {
+	background-color: beige;
+	float: left;
+	font-family: sans-serif;
+	height: 595px;
+	margin-bottom: 5px;
+	width: 545px;
+}
+aside {
+	background-color: deepskyblue;
+	clear: both;
+	height: 100px;
+	width: 700px;
+}

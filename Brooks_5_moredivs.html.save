@@ -1,0 +1,61 @@
+<html>
+<head><meta charset="utf-8"><title>Colby's Journal</title><link href="Brooks_5_moredivs.css" rel="stylesheet"></head>
+<body>
+	<center>
+		
+	<div>
+		<div>
+			
+			<h1>Colby's Journal</h1>
+			
+			
+				<table>
+					<tbody><tr>	
+						<td><a h</td>
+						<td><a href="http://index.html" target="_blank">History</a></td>
+						<td><a href="http://index.html" target="_blank">Schedule</a></td>
+						<td><a href="http://index.html" target="_blank">Hobbies</a></td>
+						<td><a href="http://index.html" target="_blank">Future</a></td>
+					</tr>
+				</tbody></table>
+			
+			
+				<h2>Welcome!</h2>
+				
+					<h3>Introduction</h3>
+					<p>This is where you will put your information for each respective page </p>
+				
+				
+					<h3>Shchedule</h3>
+					<p> Proper format for schedule:</p>
+					<ol>
+						<li>Class 1:  </li>
+						<li>Class 2:  </li>
+						<li>Class 3:  </li>
+						<li>Class 4:  </li>
+						<li>Class 5:  </li>
+						<li>Class 6:  </li>
+						<li>Class 7:  </li>
+	</center>
+					</ol>
+				
+			
+			
+			
+				<ul>
+					<li><b href="http://index.html" target="_blank">Home</a></li>
+					<li><b href="http://index.html" target="_blank">History</a></li>
+					<li><b href="http://index.html" target="_blank">Schedule</a></li>
+					<li><b href="http://index.html" target="_blank">Hobbies</a></li>
+					<li><b href="http://index.html" target="_blank">Future</a></li>
+				</ul>
+			
+		</div>
+	</div>
+
+</body></html>
+
+
+
+
+
