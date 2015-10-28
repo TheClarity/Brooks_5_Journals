@@ -1,0 +1,114 @@
+.mainheader nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	display: block;
+	margin: 0;
+	width: 100%;
+	min-width: 1024px;
+	height: 48px;
+	max-height: 44px;
+	background: #333;
+	background: rgba(0,0,0,0.8);
+	font-size: 14px;
+    font-family: fantasy;
+    
+
+}
+a {
+  text-decoration: none;
+}
+.mainheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+
+}
+
+.mainheader nav ul li {
+  float: none;
+  display: inline;
+
+}
+nav a:hover {
+    color: D0D0D0;
+    box-shadow: inset 0px 0px 3px 0px #FFF;
+    background: background: rgba(255,255,255,0.8);
+}
+
+.mainheader nav a, .mainheader nav a:link, .mainheader nav a:visited {
+  float: none;
+  padding: 15px 45px;
+  color: white;
+  display: inline-block;
+  height: 20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link,
+ .mainheader nav .active a:visited {
+ // background: #333;
+  background: rgba(0,0,0,0.0);
+  text-shadow: none;
+  
+}
+
+.mainheader nav ul li a {
+  padding-top: 10px;
+  
+	background: rgba(0,0,0,0.0);
+  height: 40px;
+
+}
+#slider {
+   background: #000;
+   border: 5px solid #eaeaea;
+   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+   height: 320px;
+   width: 680px;
+   margin: 40px auto 0;
+   overflow: visible;
+   position: relative;
+}
+#mask {
+   overflow: hidden;
+   height: 320px;
+}
+    #slider ul {
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+    #slider li {
+   width: 680px; 
+   height: 320px; 
+   position: absolute;
+   top: -325px; 
+   list-style: none;
+}
+    #slider li.firstanimation {
+        animation: cycle 10s linear infinite;
+}
+    #slider li.secondanimaion {
+        cycletwo 10s linear infinite;
+        
+@keyframes cycle {
+   0%  { top: 0px; } 
+   4%  { top: 0px; } 
+   16% { top: 0px; opacity:1; z-index:0; } 
+   20% { top: 325px; opacity: 0; z-index: 0; }
+   21% { top: -325px; opacity: 0; z-index: -1; } 
+   92% { top: -325px; opacity: 0; z-index: 0; }
+   96% { top: -325px; opacity: 0; } 
+   100%{ top: 0px; opacity: 1; }
+}
+
+ @keyframes cycletwo {
+   0%  { top: -325px; opacity: 0; } 
+   16% { top: -325px; opacity: 0; }
+   20% { top: 0px; opacity: 1; }
+   24% { top: 0px; opacity: 1; }  
+   36% { top: 0px; opacity: 1; z-index: 0; }   
+   40% { top: 325px; opacity: 0; z-index: 0; } 
+   41% { top: -325px; opacity: 0; z-index: -1; }   
+   100%{ top: -325px; opacity: 0; z-index: -1; }
+}

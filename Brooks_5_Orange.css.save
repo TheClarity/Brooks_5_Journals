@@ -1,5 +1,4 @@
 
-
 body {
   color: #000305;
   font-size: 87.5%;
@@ -44,6 +43,40 @@ a:hover, a:active {
   box-shadow: 0px 4px 0px #CF5C3F;
 }
 
+.mainheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+
+}
+
+.mainheader nav ul li {
+  float: left;
+  display: inline;
+
+}
+
+
+.mainheader nav a, .mainheader nav a:link, .mainheader nav a:visited {
+  float: left;
+  padding: 10px 25px;
+  color: white;
+  display: inline-block;
+  height: 20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link,
+ .mainheader nav .active a:visited {
+  background-color: #CF5C3F;
+  text-shadow: none;
+}
+
+.mainheader nav ul li a {
+  padding-top: 10px;
+    background-color: #666;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
 
 .mainContent {
   line-height: 25px;
@@ -244,55 +277,43 @@ footer nav {
 
 */
 #DropMenu
-{	 
-  background-color: #666;
-  height: 40px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  box-shadow: 0px 4px 0px #CF5C3F;
-}
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
 
 #DropMenu li
 {	margin: 0;
 	padding: 0;
 	list-style: none;
 	float: left;
-	font: bold 11px arial
-	border-top-left-radius: 5px;
-
-}
+	font: bold 11px arial}
 
 #DropMenu li a
 {	display: block;
 	margin: 0 1px 0 0;
 	padding: 4px 10px;
 	width: 60px;
-	background: #666;
-	color: #fff;
+	background: #5970B2;
+	color: #FFF;
 	text-align: center;
-	text-decoration: none
-	border-top-left-radius: 5px;
-}
-
+	text-decoration: none}
 
 #DropMenu li a:hover
-{	background: #666;
-	color: #CF5C3F;
-}
+{	background: #49A3FF}
 
 #DropMenu div
 {	position: absolute;
 	visibility: hidden;
 	margin: 0;
 	padding: 0;
-	background: #666;
+	background: #EAEBD8;
 	border: 1px solid #5970B2}
 
 	#DropMenu div a
 	{	position: relative;
-		display: inline;
+		display: block;
 		margin: 0;
-		padding: 0px 10px;
+		padding: 5px 10px;
 		width: auto;
 		white-space: nowrap;
 		text-align: left;

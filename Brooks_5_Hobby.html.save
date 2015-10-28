@@ -4,69 +4,28 @@
     <head>
         <title>First Website</title>
         <meta charset="utf-8"/>
-        <center><h1>My Hobbies</h1></center>
+        <center><h1>Colby's Journal</h1></center>
         <link rel="stylesheet" href="Brooks_5_Hobby.css" type="text/css"/>
         <meta name="viewport" content="width=device-width, intitial-scale=1.0">
-	<script>
-var timeout	= 500;
-var closetimer	= 0;
-var ddmenuitem	= 0;
-
-function mopen(id)
-{	
-	mcancelclosetime();
-
-	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
-
-	ddmenuitem = document.getElementById(id);
-	ddmenuitem.style.visibility = 'visible';
-
-}
-function mclose()
-{
-	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
-}
-
-function mclosetime()
-{
-	closetimer = window.setTimeout(mclose, timeout);
-}
-
-function mcancelclosetime()
-{
-	if(closetimer)
-	{
-		window.clearTimeout(closetimer);
-		closetimer = null;
-	}
-}
-
-document.onclick = mclose; 
-</script>
     </head>
     <body class="body">
 
-        <header id="mainheader">
+        <header class="mainheader">
 
 
-            <nav><ul id="DropMenu">
-                <li class="active"><a href="#"
-	onmouseover="mopen('m1')" 
-        onmouseout="mclosetime()">Home</a>
-	<div id="m1" 
-            onmouseover="mcancelclosetime()" 
-            onmouseout="mclosetime()">
-                <a href="BrooksBlue.html">Blue</a>
-                <a href="BrooksGray.html">Gray Scale</a>
-                <a href="BrooksGreen.html">Green</a>
-                <a href="BrooksPurple.html">Purple</a></li>
+            <nav><ul>
+                <li class="active"><a href="#">Orange</a></li>
+                <li><a href="BrooksBlue.html">Blue</a></li>
+                <li><a href="BrooksGray.html">Gray Scale</a></li>
+                <li><a href="BrooksGreen.html">Green</a></li>
+                <li><a href="BrooksPurple.html">Purple</a></li>
             </ul></nav>
         </header>
         <div class="mainContent">
             <div class="content">
                 <article class="topcontent">
                     <header>
-                        <h2>Hobby Webpage</h2>
+                        <h2>My Main Hobby</h2>
                     </header>
 
                     <content>
@@ -96,5 +55,15 @@ document.onclick = mclose;
 </aside>
     </body>
  <footer class="mainfooter">
+<center>
+            <nav><ul>
+                <li class="active"><a href="#">Orange</a></li>
+                <li><a href="BrooksHistory.html">Blue</a></li>
+                <li><a href="BrooksSchedule.html">Gray Scale</a></li>
+                <li><a href="BrooksHobbies.html">Green</a></li>
+                <li><a href="BrooksFuture.html">Purple</a></li>
+            </ul></nav>
+        </footer>
+</center>
 </html>
 
