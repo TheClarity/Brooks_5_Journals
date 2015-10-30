@@ -1,0 +1,46 @@
+
+html {
+    width:1650px;
+    height: 1080px;
+}
+body {
+    width:1650px;
+    height: 1080px;
+    margin 0px;
+    padding: 0;
+}
+.uglyRed {
+    position:fixed;
+    background-color: #a66f6f;
+    height: 70px;
+    width: 1650px;
+    margin: 0;
+    z-index: 9;
+}
+.Red {
+    position: absolute;
+    background-color: #FF0000;   
+    width: 300px;
+    height: 250px;
+    left: 600px;
+    top: 100px;
+    z-index: 1;
+}
+.yellow {
+    position: absolute;
+    background-color: #FFFF00;   
+    width: 150px;
+    height: 250px;
+    left: 530px;
+    top: 200px;
+    z-index: 2;
+}
+.blue {
+    position: relative;
+    background-color: #55AAAA;   
+    width: 400px;
+    height: 940px;
+    float: right;
+    top: 110px;
+    z-index: 2;
+}
