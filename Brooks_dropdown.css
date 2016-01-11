@@ -1,5 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+html {
+ padding: 0px;   
+}
+a {
+ padding: 0px;
+ margin: 0px;   
+ border: 0px;
+}
+body {
+ margin-top: 10px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
 #cssmenu {
+  height: 44px;
   background: #5F00E8;
   margin: 0;
   width: auto;
@@ -8,6 +22,12 @@
   display: block;
   position: relative;
   font-family: 'PT Sans', sans-serif;
+}
+#cssmenu #main {
+   margin-right: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;   
 }
 #cssmenu ul {
   list-style: none;
@@ -85,12 +105,25 @@
   z-index: 2;
   top: 15px;
   right: 15px;
+
 }
 #cssmenu.align-right ul li ul li.has-sub:before {
   right: auto;
   left: 15px;
   border-left-color: transparent;
   border-right-color: #ffffff;
+}
+.top {
+    z-index: 3;
+}
+#twitter {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#media {
+   
+    
+ float: right;   
 }
 #cssmenu ul li ul li a {
   font-size: 14px;
@@ -162,6 +195,33 @@
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 40px;
+}
+
+.T {
+  background:url(Twitter.png);
+    background-repeat: no-repeat;
+-webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+.T:hover {
+   -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+    background: url(Twitter2.png);
+    background-repeat: no-repeat;
+}
+div.T {
+ transition: background 2s;     
+ margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+ width: 44px;
+ height: 44px;
 }
 #cssmenu > ul > li.has-sub > a:after {
   display: block;
