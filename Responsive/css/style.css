@@ -1,0 +1,255 @@
+.navbar-default {
+    magrin-top: 15px;
+}   
+.gameText {
+    background-color: rgba(0,0,0, .6);
+    color: white;
+    box-shadow: 0px 3px 0px rgba(0,0,0, .2);
+    height: 20px;
+}
+.game {
+    background-image: url(Game1.png);
+ height: 540px;
+     max-width: 100%;
+    width: 100%;
+position: relative;
+    padding: 0;
+    
+}
+.homeText { color :white;
+    margin: 10px;
+    font-size: 100%;
+    height: 90%;
+}
+.gameBlurb {
+    font-size: 110%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px -3px 0px rgba(0,0,0, .6);
+    background-color: rgba(0,0,0, .8);
+    color: white;
+}
+.entryChoice {
+    color: white;
+    display: inline;
+    
+}
+text {
+    text-align: center;
+}
+.homeH1 {
+    text-align: center;
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 150%;
+    font-weight: bold;
+}
+label {
+    display: block;
+}
+.aboutH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 250%;
+    font-weight: bold;
+}
+.homeH2 {
+    text-align: center;
+    color: #fff;
+    font-size: 124%;
+    font-family: Arial;
+    font-weight: bold;
+}
+html, body {
+  height: 100%;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+.main {
+ height: 100%;   
+}
+.navmenu {
+  z-index: 1;
+    
+}
+.container {
+    height: 100%;
+    
+}
+.canvas {
+  position: relative;
+  left: 0;
+  z-index: 2;
+  min-height: 100%;
+  padding: 50px 0 0 0;
+  background-image: url("Background.png");
+}
+@media (min-width: 1145px) {
+    label {
+    display: inline-block;
+}
+}
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+
+@media (min-width: 992px) {
+    .homeText { color :white;
+    font-size: 143%;
+}
+.homeH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 650%;
+    font-weight: bold;
+}
+.homeH2 {
+    color: #09374f;
+    font-size: 537%;
+    font-family: Arial;
+    font-weight: bold;
+}
+    .homeText { color :white;
+    font-size: 142%;
+}
+    .aboutH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 650%;
+    font-weight: bold;
+}
+  body {
+    padding: 0;
+  }
+  .navbar {
+    right: auto;
+    background: none;
+    border: none;
+  }
+  .canvas {
+    padding: 0;
+  }
+    
+    
+}
+
+
+
+@media (min-width: 500px) {
+    .canvas {
+        
+    }
+  .homeText { color :white;
+    font-size: 110%;
+}
+
+.homeH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 270%;
+    font-weight: bold;
+}
+.homeH2 {
+    color: #0a3f5a;
+    font-size: 223%;
+    font-family: Arial;
+    font-weight: bold;
+}  
+    
+    .aboutH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 270%;
+    font-weight: bold;
+}
+}
+
+
+@media (min-width: 992px) {
+    .homeText { color :white;
+    font-size: 143%;
+}
+.homeH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 560%;
+    font-weight: bold;
+}
+.homeH2 {
+    color: #09374f;
+    font-size: 458%;
+    font-family: Arial;
+    font-weight: bold;
+}
+    .homeText { color :white;
+    font-size: 142%;
+}
+    .aboutH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 560%;
+    font-weight: bold;
+}
+    
+}
+
+
+@media (min-width: 1200px) {
+    .homeText { color :white;
+    font-size: 143%;
+}
+.homeH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 650%;
+    font-weight: bold;
+}
+.homeH2 {
+    color: #09374f;
+    font-size: 537%;
+    font-family: Arial;
+    font-weight: bold;
+}
+    .homeText { color :white;
+    font-size: 142%;
+}
+.aboutH1 {
+    margin-top: 15%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 537%;
+    font-weight: bold;
+    tex-align: left;
+}
+}
+
+.main {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DATACON - Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jasny-bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+    <script src="js/wow.min.js"></script>
+</head>
+<body style="">
+    <script>
+    new WOW().init();
+    </script>
+    <div class="navmenu navmenu-default navmenu-fixed-left">
+      <a class="navmenu-brand" href="index.html">DataCon</a>
+      <ul class="nav navmenu-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Community Service</a></li>
+          <li><a href="#">Regestration</a></li>
+      </ul>
+      <ul class="nav navmenu-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Featured Games<b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav">
+            <li><a href="Game1.html">Game 1</a></li>
+            <li><a href="Game2.html">Game 2</a></li>
+            <li><a href="Game3.html">Game 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="canvas" style="">
+      <div class="navbar navbar-default navbar-fixed-top" style="">
+        <button type="button" class="navbar-toggle wow fadeInDown animated"  data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+        
+        <div class="container">
+        <div class="page-header"><h1 class="aboutH1">Registration</h1> </div>
+        
+        
+        
+        
+        </div>
+    
+        
+        
+        
+        <div id="container">
+            <div class="main wow fadeIn animated" data-wow-duration="2.5s">
+<form class="form" method="post" action="#">
+<label class="homeText">Entry Type:</label>
+    <input type="radio" name="gender" value="Elementary" checked><p class="entryChoice"> Elementary </p>
+  <input type="radio" name="gender" value="Middle" class="entryChoice"> <p class="entryChoice"> Middleschool </p>
+  <input type="radio" name="gender" value="High" class="entryChoice"> <p class="entryChoice"> Highschool </p>
+    <input type="radio" name="gender" value="other" class="entryChoice"> <p class="entryChoice"> Other </p>
+    <br>
+<label class="homeText">Team Name :</label>
+<input type="text" name="TName" id="TName">
+<label class="homeText">School Name :</label>
+<input type="text" name="SName" id="SName">
+    <br>
+<label class="homeText">Teacher/Sponsor :</label>
+<input type="text" name="AName" id="AName">
+    <label class="homeText">Teacher/Sponsor Email :</label>
+<input type="email" name="Email" id="Email"><br>
+    <label class="homeText">Teacher/Sponsor Phone :</label>
+<input type="tel" name="Tel" id="tel">
+    <label class="homeText">Team Members :</label>
+<input type="text" name="members" id="members">
+     <label class="homeText">Game Format :</label>
+<input type="text" name="format" id="format"><br><br>
+<input type="button" name="register" id="register" value="Register">
+</form>
+</div>
+        </div>
+        
+        
+        
+    <script src="dist/sweetalert.min.js"></script>    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/registration.js"></script>   
+    <script src="js/bootbox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+        <script>
+
+    $(document).ready(function() {
+$("#register").click(function() {
+var tName = $("#TName").val();
+var sName = $("#SName").val();
+var aName = $("#AName").val();
+var tel = $("#Tel").val();    
+var email = $("#Email").val();
+var emailIndex = email.indexOf('@');
+var emailIndex2 = email.indexOf('.');
+var members = $("#members").val();
+var format = $("#format").val();
+if (tName == '' || sName == '' || aName == '' || tel == '' || email == '' || format == '' || members == '') {
+swal("Woops", "Please fill all fields.", "error");
+} 
+    else if(emailIndex == -1){
+        swal("Woops", "invalid email", "error");
+    }
+    else if(emailIndex2 == -1){
+        swal("Woops", "invalid email", "error");
+    }
+    
+    else {
+ swal({   title: "Great!",   text: "Your team is successfully registered!",   type: "success",   showCancelButton: false,   confirmButtonColor: "#8CD4F5",   confirmButtonText: "Okay",   closeOnConfirm: false }, function(){   location.href='index.html';});
+
+}
+});
+});
+    </script>
+    
+
+    </body>
+</html>
