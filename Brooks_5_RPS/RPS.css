@@ -1,0 +1,84 @@
+
+#game {
+ margin-top: 10%;
+    height: 78%;
+    width: 100%;
+    z-index: 7;
+    background-color: white;
+    color: #FFA500;
+}#gameLog {
+    Float: right;   
+    display: none;
+}
+#title {
+ text-align: center;   
+}
+a {
+ text-align: center;
+ color: #FFA500;
+ 
+}
+#gameLog {
+    margin-right: 45px;
+}
+a:hover {
+ color: #FFA500;
+ 
+}
+#about {
+    text-align: center;
+    position: fixed;
+}
+#main {
+height: 100%;
+ text-align: center;   
+    background-color: #FFFFFF;
+    
+}
+.icon-bar {
+    background-color: orange;
+}
+.toggle {
+    z-index: 4;
+    background-color: RGBA(0,0,0,0);
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+#main {
+    background-color: RGBA(0,0,0,.0);
+ height: 100%;   
+    z-index: -4;
+}
+.cavnas {
+    height: 100%;
+    background-color: white;
+    
+}
+.navmenu {
+    display: none;
+  z-index: 0;
+    
+}
+.container {
+    height: 100%;
+    
+}
+
+@media (min-width: 1145px) {
+    .cavnas {
+    height: 100%;
+    background-color: white;
+    
+}
+    label {
+    display: inline-block;
+}
+}
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}

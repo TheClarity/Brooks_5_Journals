@@ -1,0 +1,59 @@
+<html id="html">
+<head>
+   <meta charset="UTF-8">
+    <title>RPS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jasny-bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="RPS.css">
+</head>
+<body style="" id="body">
+  <div id="main">
+    <div id="navmenu" class="navmenu navmenu-default navmenu-fixed-left on">
+      <a class="navmenu-brand" href="#">RPS</a>
+      <ul class="nav navmenu-nav">
+        <li><input type="button" name="switch" id="switch" value="Switch" class="off"></li><br>
+          
+        <li><input type="button" name="log" id="log" value="Toggle Log (off)" class="off"></li>
+      </ul>
+      
+    </div>
+
+    <div class="canvas" id="canvas" style="">
+      <div class="navbar-fixed-top toggle" id="" style="">
+        <button id="toggle" type="button" class="navbar-toggle "  data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>   
+     
+            <div id="game">
+
+    <h1 id="title">Rock Paper Scissors </h1>
+<!--    <input type="button" name="switch" id="switch" value="Switch" class="on">-->
+      <input type="button" name="Rock" id="rock" value="Rock">
+      <input type="button" name="Rock" id="paper" value="Paper">
+      <input type="button" name="Rock" id="scissors" value="Scissors">
+<!--         <input type="button" name="log" id="log" value="Toggle Log" class="on">-->
+    
+    <div id="result"></div>
+    <div id="wlt"> </div>
+                <article id="gameLog"> </article>
+        </div>
+        </div>
+        <footer id="footer"><a id="about" href="https://en.wikipedia.org/wiki/Rock-paper-scissors">About</a></footer>
+    </div>
+    
+    <script src="js/bootbox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    
+    <script src="RPS.js" type="text/javascript"></script>   
+
+</body>
+
+</html>
+
