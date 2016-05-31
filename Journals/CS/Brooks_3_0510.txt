@@ -1,0 +1,35 @@
+Create a class for 'Hero' The class should contain:
+variables for health, score, power/weapon, dexterity, perception, level, x, y, z, and a symbol
+class Hero{
+int health;
+int score;
+String weapon;
+int dexterityLvl;
+int level;
+public int x;
+public int y;
+public int z;
+String symbol = " @";
+double perception;
+}
+There should also be a class constructor accepting inputs for name, x, y, and symbol
+public class Hero {
+
+    public int x;
+    public int y;
+    String symbol = " @";
+    public String name = "Colby";
+
+
+    Hero(int a, int b) {
+
+        this.x = a;
+        this.y = b;
+
+    }
+}
+Provide an example of initializing a hero object with your name
+Hero Colby;
+Explain why you would not initialize the hero in class hero.
+because then the class would be an object in its own class. Instead of the object working in the
+main game, because you are making the object in the class instead of the main program.

@@ -1,0 +1,30 @@
+ 1.)player vs Player
+	I think player vs Player will be in the assessment it was something the whole class struggled
+	over for 9 weeks and most likely will sturggle to explain if you were to ask the, so why not
+	put it in for one last question and test if they really do know the difference.	
+ 2.) arrays
+ 3.) arrayList
+	like player vs Player this will probably be in because the difficulty of the topic and explaining
+	it. The assement might show a few examples and you'll have to tell the difference between the
+	Arrays and the arrayList	
+ 4.) data types
+	Data types have and will continue to play a key role in CS, because data types were the
+	first thing we were taught in this class, it was for a reason, because it flows within and
+	without the java world and lanuages like it. Some still do have trouble between doubles, ints
+	and float. 
+ 5.) for loops
+	For loops was the first code we delt with in terminal making it go up to 100 so why not have
+	it in out last test.
+ 6.)  basics of java like classs and methods
+ 7.) Program necessities
+	I have put these together because they go hand and hand but can be seprated into different
+	topic and be just as difficult to answer. But the basics of Java would be in the test because
+	it is the first lanuage taught in this class and we should be able identify Java when we see
+	it. The fact that Java will be in the test makes us think about java even more and the possiblities
+	because although, we don't think we can do big things we truly can.
+ 8.) Assembly
+	We are expected to know the true difference between
+	low level programming and high level programming.  
+ 9.) encapsulation
+ 10.) OOP and its philosophy
+	This has been a big part of the class and has been included in every essay throughout the year.

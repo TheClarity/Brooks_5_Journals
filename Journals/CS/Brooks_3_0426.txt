@@ -1,0 +1,39 @@
+Write a Java method to return the cubed value of some number:
+
+ public static void cubeIT(int x){
+	int a = x*x*x;
+	 return int a;
+ }
+
+Write an Arduino function to return the cubed value of some number:
+ 
+void loop() {
+  int i = 5; 
+  int squared; 
+  int cubed;
+ 
+  squared = i * i;
+  cubed = i * squared;
+  
+	return cubed;
+
+Create the class, an object, and class constructor for class student:
+
+public class Student {
+	int hairLength;
+	int age;
+	string hairColor;
+	int grade;
+	public Student(int a, int b, string c, int d){
+		this.hairLength = a;
+		this.age = b;
+		this.hairColor = c;
+		this.grade = d;
+
+     }
+  }
+} 
+
+Describe - if we were to continue with Arduino - what would you create?:
+ 
+I would like to be able to actually finish my connect 4 game.

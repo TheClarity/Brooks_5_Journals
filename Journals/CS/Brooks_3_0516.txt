@@ -1,0 +1,23 @@
+Explain casting. Up-casting, Down-casting.
+	up casting is giving more of a generalized object.
+	
+	down casting is being more specific with the data types
+	
+    Give a specific code example for up-casting
+	int I;
+	float F;
+	F = 3.15;
+	I = F;
+	
+    Give a specific code example for down-casting
+	Cat c1 = new Cat();		 
+	Animal a = c1;	
+	Cat c2 = (Cat) a;
+	
+    Give a specific code example for converting a char to a String
+	char c;
+	(String)c;
+	
+    What is the range of values for byte? Why?
+	-128 to 127
+	it is like that because a program can only run a byte which has 8 bits.

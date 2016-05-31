@@ -1,0 +1,2 @@
+Same journal as the previous??
+I have been using jQuery for most of the year, it is extremely helpful when using javascript, it makes just about every aspect of it shorter and easier than just basic JS. It is not just JS becuase it is basically an addition to it. Kinda like JS on steroids but instead of making you get muscles faster it helps you code faster. 

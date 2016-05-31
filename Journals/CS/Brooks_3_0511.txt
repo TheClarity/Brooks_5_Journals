@@ -1,0 +1,9 @@
+
+
+    Explain in your own words -- what happens with nested for loops?
+    E.g.,
+
+            for (int i = 0; i <= board[0].length - 1; i++) {
+                        for (int j = 0; j <= board[1].length - 1; j++) { ....}
+          
+		  	Basically a for loop will loop how ever many times you set and it loops once it reaches the end of the code, so if you put a for loop inside another for loop it will do the smaller loop, then loop the outer loop, which will start the other for loop until the for statement is no longer true.

@@ -1,0 +1,53 @@
+Given mymap[67][43] Which is the x coordinate? Which is the y coordinate? Why? How does this happen?
+    Consider:
+
+            for (int i = 0; i <= map[0].length - 1; i++) {
+                for (int j = 0; j <= map[1].length - 1; j++) {
+                    if (j < map[1].length - 1) {
+                      if (i=0){ System.out.print("8888"); #a
+                        } else if (map[i][j] != 'x') {
+                            System.out.print("."); #e
+                        } else {
+                            System.out.print(map[i][j]); #b
+                        }
+                    } else {
+                        if (map[i][j] != 'x') {
+                            System.out.println("."); #c
+                        } else {
+                            System.out.println(map[i][j]); #d
+                        }
+                    }
+                }
+            }
+        }
+            
+            
+          
+
+Write the code from line #a and explain what it does.
+	line #a it will print 8888 in the array at [67][43]
+Write the code from line #b and explain what it does.
+	it prints the map
+Write the code from line #c and explain what it does. Explain how its different than #e
+	#e prints what the array is gonna be printed of but #c says if a specific coordinate like
+	[2][2] it will print the "." or the background text you could say 
+Write the code from line #d and explain what it does.
+	#d says will if "." is not gonna be something else
+Explain how to use a boolean with a while loop. Provide a very specific use case and code example.
+	a boolean is the most basic way you can control a while loop
+	while (game) {
+            printArray();
+            move();
+			blocked();
+        }
+    } 
+	this while loop will continue until game = false whether i impliment it into a death or
+	something.
+Explain the use of static.
+	static makes the variable, or data type accessible throughout the program
+Provide an example of how you could use an object with your game. Give a code example.
+	You could man a player object first you would have to make the class. Then declare and 
+	intialize the object by 
+		public static Player player;
+	and then 
+		player = new Player();

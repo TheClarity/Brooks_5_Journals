@@ -1,0 +1,15 @@
+The Slick assignment was intended to gently familiarize you with 2-D arrays. Some students recognized the 2-D arrays from Slick and previous journals --- other students had no recollection.
+Which were you? Why? Note - attributing the environment is not pragmatic - as students experienced the same environment (though they might have experienced it differently)
+	I was a student that recognized the 2D arrays from slick but i didn't know how
+	we used it in slick i just knew it was there and we used it to generate things	
+Make a list of ten questions related to the Array assignments pt 1 and 2 - that you predict will be on the semester exam. E.g., object initialization, class constructors, creating and changing arrays, etc.
+	1. how could you create a class constructor
+	2. what is the difference between array and arraylist	
+	3. how do you declare and intialze an object
+	4. list datatypes
+	5. how do you make an object
+	6. what is the main difference between the class and object
+	7. why does an Array do y and then x
+	8. how is a for loop used when creating an array
+	9. how do you print X on an array at a certain coordinate
+	10. how do you make a 1D array? 2D? 3D?
