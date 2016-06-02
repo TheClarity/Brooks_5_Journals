@@ -1,0 +1,112 @@
+.clock
+{
+    background-color: gainsboro;
+    background-image: radial-gradient(transparent, white);   
+    border: 10px solid lightgrey;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    transition: background-color 3s;    
+}
+
+.twelve
+{
+    position: absolute;
+    left: 48%;
+    top: -1px;
+}
+
+.three{
+    position: absolute;
+    right: -1px;
+    top: 49%;
+}
+
+.six{
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+}
+
+.nine{
+    position: absolute;
+    left: -1px;
+    top: 49%;
+}
+.hr{
+    height: 200px;
+    width: 4px;
+    background: #333;
+    position: absolute;
+    left: 50%;
+    top: 42px;
+    animation: tick 43200s infinite linear;
+    -webkit-animation: tick 43200s infinite linear;
+}
+.min{
+    height: 230px;
+    width: 4px;
+    background: #777;
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    animation: tick 3600s infinite linear;
+    -webkit-animation: tick 3600s infinite linear;
+}
+.sec{
+    height: 230px;
+    width: 4px;
+    background: #FC0505;
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    animation: tick 60s infinite steps(60);
+    animation: tick 60s infinite steps(60);
+}
+.hr, .min, .sec{
+    transform-origin: 2px 100%;
+    transform-origin: 2px 100%;
+}
+@keyframes tick {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes tick {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.clock:hover {
+   background-image: radial-gradient(transparent, white);   
+    background-color:skyblue;
+    /*
+    transition-duration: 3s;
+*/
+    
+    animation: rotate 3s;
+    animation-iteration-count: 1;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}    
+    
+    
+    
+    
+    
+    
+    s
+    
+.test {
+    background-color: blue;
+s
+		}
